@@ -21,6 +21,7 @@ function asignarColor(arr) {
   if (arr[0] == "♥" || arr[0] == "♦") {
     arriba.style.color = "red";
     abajo.style.color = "red";
+    valor.style.color = "red";
   } else {
     arriba.style.color = "black";
     abajo.style.color = "black";
